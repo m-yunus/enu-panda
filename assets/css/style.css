@@ -2417,7 +2417,7 @@
     margin-top: -20px
 }
 .v4-section-title p {
-	font-family: Roboto
+	font-family: Roboto;
     font-size: 18px;
     color: var(--font-txt-clr);
     margin-top: 20px
@@ -9668,7 +9668,7 @@
 }
 .homeV3-banner-area {
     padding:200px 0px 30px;
-    position: relative
+    position: relative;
 }
 .homeV3-banner-area .shape-01, .homeV3-banner-area .shape-02, .homeV3-banner-area .shape-03, .homeV3-banner-area .shape-04 {
     position: absolute;
@@ -12426,3 +12426,20 @@
     font-family: Omnes-SemiBold;
     src: url("../fonts/Omnes-SemiBold.otf") format("opentype");
 }
+
+
+
+.anime{
+    animation: anime 5s ease-out infinite both;
+}
+@keyframes anime {
+    0% {
+      transform: scale(1) translateY(0);
+      transform-origin: 50% 16%;
+    }
+    100% {
+      transform: scale(1.25) translateY(-15px);
+      transform-origin: top;
+    }
+  }
+  
