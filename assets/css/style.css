@@ -12472,10 +12472,18 @@
   
     position: relative;
     z-index: 1;
-    bottom: 47rem;
+    bottom: 44rem;
     align-items: flex-start;
     flex-direction: column;
 
+}
+.carousel-caption {
+    text-align: left;
+   
+    max-width: 500px;
+    left: 1rem;
+    padding:5px;
+    bottom: 13rem;
 }
 
 
